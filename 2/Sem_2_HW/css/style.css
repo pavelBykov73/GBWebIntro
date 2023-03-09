@@ -1,0 +1,47 @@
+html {
+    background-color: rgb(230, 255, 255);
+}
+
+p {
+    color: blue;
+}
+
+h2 {
+    font-family: 'Caviar Dreams', sans-serif;
+    color: deeppink;
+    /* rgb(187, 179, 73); */
+}
+
+a {
+    color: darkblue;
+    /* rgb(133, 136, 133); */
+    font-size: 150%;
+    /* Размер шрифта в процентах */
+}
+
+img {
+    margin-left: 20px;
+}
+
+.block1 {
+    width: 200px;
+    background: #9dcb92;
+    padding: 10px;
+    padding-right: 20px;
+    border: solid 1px black;
+    float: center;
+}
+
+@font-face {
+	font-family: 'Caviar Dreams';
+	src: url('../fonts/caviar_dreams.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/caviar_dreams.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/caviar_dreams.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/caviar_dreams.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/caviar_dreams.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/caviar_dreams.svg#caviar_dreams') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+body {
+    font-size: 150%;
+}
